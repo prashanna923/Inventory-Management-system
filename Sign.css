@@ -1,0 +1,156 @@
+body{
+    background-color: #f6f6f6;
+    font-family: "Aksara Bali Galang", sans-serif;
+    
+}
+h1{
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    left: 1212px;
+    top: 161px;
+    padding: 185px;
+    align-items: center;
+
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 100px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 221px;
+    height: 0px;
+    left: 0px;
+    top: -106px;
+    
+    background: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10px;
+}
+img{
+    position: absolute;
+    width: 593px;
+    height: 400px;
+    left: 41px;
+    top: 299px;
+
+    position: absolute;
+    width: 590px;
+    height: 390px;
+    left: 0px;
+    top: 306px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 4px #000000;
+    border-radius: 10px;
+}
+h2{
+    position: absolute;
+    width: 476px;
+    height: 100px;
+    left: 620px;
+    top: 34px;
+
+    font-family: "Aksara Bali Galang" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 100px;
+ 
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #023246;
+}
+h4{
+    position: absolute;
+    width: 481px;
+    height: 50px;
+    left: 615px;
+    top: 117px;
+
+    font-family: 'Aksara Bali Galang' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #023246;
+
+}
+form{
+    width: 40px;
+    margin-left: 630px;
+    margin-top: 239px;
+    color: #023246;
+    font-family:'Roboto' ;
+}
+form label{
+    display: inline-block;
+    width: 500px;
+    font-size: 32px;
+    top: 239px;
+}
+form input{
+    display: flex;
+    margin-left: 356px;
+    width: 300px;
+    top: 250px;
+    height: 27px;
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 7px;
+    padding: 5px;
+}
+input[type="button"]{
+    width: 110px;
+    height: 35px;
+    margin-left: 550px;
+    margin-top: 70px;
+    background: #023246;
+    border-radius: 5px;
+    align-items: center;
+    color: #FDFDFD;
+    font-family: "Aksara Bali Galang", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+input[type="button"]:hover{
+    color: #f6f6f6;
+}
+
+.for{
+    display: flex;
+    flex-direction: column;
+}
+
+.for section{
+    display: flex;
+}
+
+.for section label{
+    height: fit-content;
+}
