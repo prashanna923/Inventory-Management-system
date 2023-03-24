@@ -1,20 +1,17 @@
 body{
-    background-color: #f6f6f6;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
     font-family: "Aksara Bali Galang", sans-serif;
-    overflow: hidden;
-    
 }
 #Container{
-    width:590px;
+    width:593px;
     height:300px;
-    margin-top: -9px;
-    margin-left: -8px;
-
     background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
     border-radius: 3px;
-
 }
+
 h1{
     position: absolute;
     width: 1000px;
@@ -34,28 +31,10 @@ h1{
     letter-spacing: 0.2em;
 
     color:#FFFFFF;
-
-}
-img{
-    position: absolute;
-    width: 593px;
-    height: 400px;
-    left: 41px;
-    top: 299px;
-
-    position: absolute;
-    width: 590px;
-    height: 390px;
-    left: 0px;
-    top: 306px;
-
-    background: #FFFFFF;
-    box-shadow: 5px 5px 4px #000000;
-    border-radius: 10px;
 }
 h2{
     position: absolute;
-    width: 476px;
+    width: 491px;
     height: 100px;
     left: 620px;
     top: 34px;
@@ -92,6 +71,23 @@ h4{
     color: #023246;
 
 }
+img{
+    position: absolute;
+    width: 593px;
+    height: 400px;
+    left: 41px;
+    top: 299px;
+
+    position: absolute;
+    width: 590px;
+    height: 390px;
+    left: 0px;
+    top: 306px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 4px #000000;
+    border-radius: 10px;
+}
 form{
     width: 40px;
     margin-left: 630px;
@@ -103,13 +99,14 @@ form label{
     display: inline-block;
     width: 500px;
     font-size: 32px;
-    margin-top: 46px;
+    margin-top:35px ;
+
 }
 form input{
     display: flex;
-    margin-left: 361px;
-    margin-top: -277px;
-    margin-bottom: 319px;
+    margin-left: 356px;
+    margin-top: -97px ;
+    margin-bottom: 120px;
     width: 300px;
     height: 27px;
     background: #FDFDFD;
@@ -119,10 +116,10 @@ form input{
     padding: 5px;
 }
 button{
-    width: 120px;
+    width: 110px;
     height: 35px;
     margin-left: 1180px;
-    margin-top: -251px;
+    margin-top: -69px;
     background: #023246;
     border-radius: 5px;
     color: #FDFDFD;

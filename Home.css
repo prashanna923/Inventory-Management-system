@@ -42,57 +42,46 @@ body{
     letter-spacing: 0.15em;
     color: rgb(65, 97, 116);
 }
-.Container{
-    text-align: center;
-    margin: top 360px; ;
-}
 .Sign{
-    position: absolute;
-    width: 163px;
-    height: 34px;
-    left: 930px;
-    top: 13px;
+    width: 110px;
+    height: 35px;
+    margin-left: 1052px;
+    margin-top: 18px;
     text-align: center;
-    color: rgb(65, 97, 116);
-
-   border: 1px solid rgb(4, 3, 7);
-   background-color: none;
-   padding: 10px 20px;
-   font-size: 22px;
-   font-family: "Aksara Bali Galang";
-   cursor: pointer;
-   margin: 10px;
-   transition: 0.2s;
-   position: relative;
-   overflow: hidden;
+    color: white;
+    background-color: #023246;
+    font: 1em sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.Sign:hover,.Login{
-    color: #FFFFFF;
-
-
+.Sign:hover{
+    background-color:aqua;
+    color: #000000;
+    transition: 0.5s;
 }
 .Login{
-    position: absolute;
-    width: 212px;
-    height: 34px;
-    left: 1173px;
-    top: 13px;
-
-    font-family: 'Aksara Bali Galang';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 10px;
-    color: #FFFFFF;
-
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.1em;
-
+    width: 110px;
+    height: 35px;
+    margin-right: 103px;
+    margin-top: 18px;
+    text-align: center;
+    color: white;
+    background-color: #023246;
+    font: 1em sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.Login:hover{
+    background-color:aqua;
+    color: #000000;
+    transition: 0.5s;
 }
 .Headline{
     position: absolute;
-    width: 930px;
+    width: 770px;
     height: 27px;
     left: 155px;
     top: 29px;
