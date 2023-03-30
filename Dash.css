@@ -11,7 +11,7 @@ body{
     box-shadow: 5px 1px 4px #000000;
 }
 #Headline{
-    width: 1090px;
+    width: 1190x;
     margin-left: 250px;
     margin-top: -700px;
     height: 100px;
@@ -19,14 +19,58 @@ body{
     box-shadow: 5px 1px 4px #000000;
 } 
 h2{
+    position: absolute;
+    top: -5px;
+    left: 262px;
     color: white;
-    width: 505px;
-    margin-top: -68px;
-    margin-left: 272px;
+    width: 526px;
     font-size: 36px;
     font-family: "Aksara Bali Galang", sans-serif;
     font-weight: 700;
 }
+#Headline input{
+    position: absolute;
+    top: 33px;
+    left: 903px;
+    width: 300px;
+    height: 26px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    box-shadow: 8px 1px 4px #000000 ;
+}
+#Headline #Profile{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 1239px;
+    top: 30px ;
+}
+#Headline #Profile:hover{
+    transition: 0.25s;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+#Headline #Logout{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    left: 1294px;
+    top: 29px ;
+}
+#Headline #Logout:hover{
+transition: 0.25s;
+background-color: darkred;
+border-radius: 23% 15%;
+border-color: aqua;
+box-shadow: 0 0 5px cyan,
+0 0 25px cyan, 0 0 50px cyan,
+0 0 100px cyan, 0 0 200px cyan;
+}
+
 img {
     position: absolute;
     width: 161px;
@@ -36,14 +80,193 @@ img {
     
 
 }
-input{
-    width: 300px;
-    margin-top: -68px ;
-    margin-left: 884px;
-    height: 30px;
-    border-radius: 20px;
-    float: left;
-    background: #FDFDFD;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px #023246;
+#img1{
+    width: 50;
+    height: 50;
+}
+#Menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 253px;
+}
+button{
+    align-items: flex-end;
+    height: 50px;
+    width: 240px;
+    margin-top: 5px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10%;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+
+}
+button:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+
+}
+button #img1{
+    position: absolute;
+    top: 17px;
+    left: 13px;
+    height: 25px;
+    width: 25px;
+}
+button #img2{
+    position: absolute;
+    top: 74px;
+    left: 4px;
+    height: 27px;
+    width: 27px;
+}
+button #img3{
+    position: absolute;
+    top: 127px;
+    left: 4px;
+    height: 27px;
+    width: 27px;
+}
+button #img4{
+    position: absolute;
+    top: 182px;
+    left: 4px;
+    height: 26px;
+    width: 26px;
+}
+button #img5{
+    position: absolute;
+    top: 238px;
+    left: 2px;
+    height: 26px;
+    width: 26px;
+}
+button #img6{
+    position: absolute;
+    top: 292px;
+    left: 4px;
+    height: 28px;
+    width: 28px;
+}
+#Main #Dash{
+    position: absolute;
+    top: 103px;
+    left: 260px;
+    width: 1090px;
+    border-radius: 15px;
+}
+#Main h2{
+    top: 91px;
+    left: 268px;
+}
+#Main h4{
+    position: absolute;
+    top: 173px;
+    left: 268px;
+    color: aliceblue;
+    font-size: 25px;
+}
+#Detail #Container1{
+    background-color:#023246 ;
+    width: 115px;
+    height: 164px;
+    position: absolute;
+    left: 273px;
+    top: 281px;
+    border-radius: 10px;
+}
+
+#Detail #Container1 h1{
+    color:white;
+    position: absolute;
+    top:81px ;
+    left:8px ;
+}
+#Container1 #Profile{
+    width: 98px;
+    height: 99px;
+    left: 0px;
+    top: -3px;
+}
+#Detail #Container2{
+    background-color:#023246 ;
+    width: 115px;
+    height: 164px;
+    position: absolute;
+    left: 644px;
+    top: 281px;
+    border-radius: 10px;
+}
+#Container2 #TltProduct{
+    width: 115px;
+    height: 117px;
+    left: -9px;
+    top: -9px;
+}
+#Detail #Container2 h1{
+    color:white;
+    position: absolute;
+    top:81px ;
+    left:8px ;
+}
+#Detail #Container3{
+    background-color:#023246 ;
+    width: 115px;
+    height: 164px;
+    position: absolute;
+    left: 1022px;
+    top: 281px;
+    border-radius: 10px;
+}
+#Container3 #Pending{
+    width: 101px;
+    height: 101px;
+    left: 2px;
+    top: -1px;
+}
+#Detail #Container3 h1{
+    color:white;
+    position: absolute;
+    top:81px ;
+    left:8px ;
+}
+#Detail #ContainerA{
+    position: absolute;
+    top: 282px;
+    width: 200px;
+    left: 388px;
+    height: 164px;
+    background-color:#E8E8E8;
+    border: cyan;
+    border-radius: 10px;
+}
+#Detail #ContainerB{
+    position: absolute;
+    top: 282px;
+    width: 200px;
+    left: 759px;
+    height: 164px;
+    background-color:#E8E8E8;
+    border: cyan;
+    border-radius: 10px;
+}
+#Detail #ContainerC{
+    position: absolute;
+    top: 282px;
+    width: 200px;
+    left: 1137px;
+    height: 164px;
+    background-color:#E8E8E8;
+    border: cyan;
+    border-radius: 10px;
 }

@@ -95,6 +95,10 @@ form{
     color: #023246;
     font-family:'Roboto' ;
 }
+#link{
+    width: 100px;
+    font: optional;
+}
 form label{
     display: inline-block;
     width: 500px;
