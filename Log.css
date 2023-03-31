@@ -120,10 +120,11 @@ form input{
     padding: 5px;
 }
 button{
+    position: absolute;
     width: 110px;
     height: 35px;
-    margin-left: 1180px;
-    margin-top: -69px;
+    left: 1184px;
+    top: 386px;
     background: #023246;
     border-radius: 5px;
     color: #FDFDFD;
@@ -134,17 +135,22 @@ button{
     line-height: 10px;
     cursor: pointer;
     padding: 10px 20px;
-
-
-
-    display: flex;
-    align-items: center;
     letter-spacing: 0.1em;
 }
+form #link{
+    position: absolute;
+    font-size: 20px;
+
+    width: 143px;
+}
 button:hover{
-    background-color:aqua;
-    color: #000000;
-    transition: 0.5s;
+    transition: 0.25s;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
 .button img{
     position: absolute;
@@ -157,7 +163,11 @@ button:hover{
     cursor: pointer;
 }
 .button img:hover{
-    background-color:aqua;
-    color: #000000;
-    transition: 0.5s;
+    transition: 0.25s;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
