@@ -1,0 +1,58 @@
+*{
+    overflow: hidden;
+}
+#Background{
+    position: absolute;
+    height: 695px;
+    width: 1360px;
+    left: 0px;
+    top: 0px;
+    filter: blur(2px);
+    
+}
+#Rectangle{
+    position: absolute;
+    top: 1px;
+    left: -30px;
+    height: 720px;
+    width: 500px;
+    background-color:#023246;
+    filter: blur(190px);
+}
+#Heading #Logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    height: 120px;
+    width: 120px;
+}
+#Heading nav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60px ;
+    left: 600px;
+    font-family: "Aksara Bali Galang",sans-serif;
+    color: #023246;
+    gap: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    text-shadow: black
+}
+
+nav a:hover{
+    color: white;
+}
+nav a:active{
+    color: white;
+}
+#Box1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    background-color: #023246;
+}

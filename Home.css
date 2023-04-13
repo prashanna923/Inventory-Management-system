@@ -1,138 +1,95 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color:white;
-    height: 1080px;
-    width: 785px;
-    position: relative;
     overflow: hidden;
 }
-.Heading {
+#Background{
+    height: 702px;
+    width: 1360px;
+}
+#Rectangle1{
     position: absolute;
-    width: 643px;
-    height: 13px;
-    left: 800px;
-    top: 400px;
-    color: #000000;
-    font-family: 'Aksara Bali Galang';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 66px;
-    line-height: 80px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-    color: #023246;
-}
-.content {
-    position: absolute;
-    width: 621px;
-    height: 27px;
-    left: 793px;
-    top: 555px;
-    font-family: "Aksara Bali Galang";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.15em;
-    color: rgb(65, 97, 116);
-}
-.Sign{
-    width: 110px;
-    height: 35px;
-    margin-left: 1052px;
-    margin-top: 18px;
-    text-align: center;
-    color: white;
-    background-color: #023246;
-    font: 1em sans-serif;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.Sign:hover{
-    transition: 0.25s;
-    color: #000000;
-    background-color: aqua;
-    border-color: aqua;
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
-}
-.Login{
-    width: 110px;
-    height: 35px;
-    margin-right: 103px;
-    margin-top: 18px;
-    text-align: center;
-    color: white;
-    background-color: #023246;
-    font: 1em sans-serif;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-   
-}
-.Login:hover{
-    transition: 0.25s;
-    color: #000000;
-    background-color: aqua;
-    border-color: aqua;
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
-}
-.Headline{
-    position: absolute;
-    width: 770px;
-    height: 27px;
-    left: 155px;
-    top: 29px;
-
-    font-family: 'Aksara Bali Galang';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 25px;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.15em;
-    color: #FFFFFF;
-    }
-.Home{
-        position: absolute;
+    height: 710px;
     width: 1380px;
-    height: 80px;
-    left: 0px;
     top: 0px;
-    background-color: #023246;
+    left: 0px;
+    background-color: white;
+    opacity: 0.85;
 }
-img {
+#Rectangle2{
     position: absolute;
-    width: 773px;
-    height: 517px;
-    left: 6px;
-    top: 178px;
+    top: 1px;
+    left: -30px;
+    height: 720px;
+    width: 500px;
+    background-color:#023246;
+    filter: blur(190px);
 }
-.p {
-    
+#Rectangle3{
     position: absolute;
-    width: 551px;
-    height: 357px;
-    left: 1113px;
-    top: 114px;
+    top: 1px;
+    left: 270px;
+    height: 720px;
+    width: 500px;
+    background-color:#023246;
+    filter: blur(300px);
 }
-#LOGO img{
+#Heading #Logo{
     position: absolute;
-    width: 109px;
-    height: 86.78px;
-    left: 13px;
-    top: -2px;
+    top: 20px;
+    left: 30px;
+    height: 120px;
+    width: 120px;
+}
+#Heading nav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60px ;
+    left: 600px;
+    font-family: "Aksara Bali Galang",sans-serif;
+    color: #023246;
+    gap: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+}
+
+nav a:hover{
+    color: white;
+}
+nav a:active{
+    color: white;
+}
+#Main p{
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    font-size: 30px;
+    color: #023246;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+#Pic1{
+    position: absolute;
+    top: 230px;
+    left: 160px;
+    height: 400px;
+    width: 500px;
+}
+h1{
+    position: absolute;
+    top: 220px;
+    left: 770px;
+    font-size: 75px;
+    color: #023246;
+    letter-spacing: 0.13em;
+}
+h2{
+    position: absolute;
+    top: 620px;
+    left: 70px;
+    letter-spacing: 0.13em;
+    color: #023246;
+
 
 }
