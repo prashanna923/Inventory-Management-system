@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 60px ;
+    top: 40px ;
     left: 600px;
     font-family: "Aksara Bali Galang",sans-serif;
     color: #023246;
@@ -52,12 +52,9 @@
     font-size: 20px;
     cursor: pointer;
     letter-spacing: 0.2em;
+    text-shadow: black
 }
-
 nav a:hover{
-    color: white;
-}
-nav a:active{
     color: white;
 }
 #Main p{
