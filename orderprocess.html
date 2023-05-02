@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="Dash.css">
+    <title>Order Processing</title>
+    <link rel="stylesheet" href="orderprocess.css">
     <link rel="shortcut icon" href="/Image/Vector.png" type="image/x-icon">
 </head>
 <body>
@@ -27,32 +27,49 @@
     <section id="Headline">
         <h2>Inventory Management System</h2>
         <input type="text" placeholder="Search">
-        <a href="profile.html"><img id="Profile" src="/Image/profile.png"></a>
+        <a href="#"><img id="Profile" src="/Image/profile.png"></a>
         <a href="Home.html"><img id="Logout" src="/Image/Iconsax/Linear/Logout.png" ></a>
     </section>
     <section id="Main">
-        <div id="image">
-            <img id="Dash" src="/Image/Dashboard_Bg.jpg" alt="Dashboard">
-            <h2>Dashboard</h2>
-            <h4> Welcome to Inventory Management System</h4>
+        <h1>Order Processing</h1>
+        <div class="container">
+            <div class="blankrec1">
+                <div class="Rectangle1">
+                    <h2>Orders today</h2>
+                </div>
+            </div>
+            <div class="blankrec2">
+                <div class="Rectangle2">
+                    <h2>Pending Orders</h2>
+                </div>
+            </div>
+            <div class="blankrec3">
+                <div class="Rectangle3">
+                    <h2>Delivered Orders</h2>
+                </div>
+            </div>
+            <div class="blankrec4">
+                <div class="Rectangle4">
+                    <h2>Cancelled Orders</h2>
+                </div>
+            </div>
         </div>
-        <div id="Detail">
-            <div id="Container1">
-                <img id="Profile" src="/Image/profile2user.png" alt="profile">
-                <h1>Total User</h1>
+        <div id="Forms">
+            <div class="top">
+                <h2>Today’s Ordered Products</h2> 
             </div>
-            <div id="Container2">
-                <img id="TltProduct" src="/Image/i3dsquare.png" alt="tltProduct">
-                <h1>Total Products</h1>
+            <div class="dop">
+                <h2>Delivered Ordered Products</h2>
             </div>
-            <div id="Container3">
-                <img id="Pending" src="/Image/i3drotate.png" alt="Pending">
-                <h1>Pending Products</h1>
+            <div class="pop">
+                <h2>Pending Ordered Products</h2>
             </div>
-            <div id="ContainerA"></div>
-            <div id="ContainerB"></div>
-            <div id="ContainerC"></div>
+
+            <div class="cop">
+                <h2>Canceled Ordered Products</h2>
+            </div>
         </div>
+        <button onclick="openPopup()"><img id="Add" src="/Image/addsquare.png">Add</button>
 
     </section>
 </body>

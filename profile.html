@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="Dash.css">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
     <link rel="shortcut icon" href="/Image/Vector.png" type="image/x-icon">
 </head>
 <body>
@@ -27,31 +27,28 @@
     <section id="Headline">
         <h2>Inventory Management System</h2>
         <input type="text" placeholder="Search">
-        <a href="profile.html"><img id="Profile" src="/Image/profile.png"></a>
+        <a href="#"><img id="Profile" src="/Image/profile.png"></a>
         <a href="Home.html"><img id="Logout" src="/Image/Iconsax/Linear/Logout.png" ></a>
     </section>
     <section id="Main">
-        <div id="image">
-            <img id="Dash" src="/Image/Dashboard_Bg.jpg" alt="Dashboard">
-            <h2>Dashboard</h2>
-            <h4> Welcome to Inventory Management System</h4>
-        </div>
-        <div id="Detail">
-            <div id="Container1">
-                <img id="Profile" src="/Image/profile2user.png" alt="profile">
-                <h1>Total User</h1>
-            </div>
-            <div id="Container2">
-                <img id="TltProduct" src="/Image/i3dsquare.png" alt="tltProduct">
-                <h1>Total Products</h1>
-            </div>
-            <div id="Container3">
-                <img id="Pending" src="/Image/i3drotate.png" alt="Pending">
-                <h1>Pending Products</h1>
-            </div>
-            <div id="ContainerA"></div>
-            <div id="ContainerB"></div>
-            <div id="ContainerC"></div>
+        <h1>General Information</h1>
+        <div id="container">
+            <form>
+                <div id="Label">
+                    <label>Full Name</label>
+                    <label>Date of Birth</label>
+                    <label>Email ID</label>
+                    <label>Sex</label>
+                    <label>Address</label>
+                </div>
+                <div id="input">
+                    <input type="text" placeholder="">
+                    <input type="text" placeholder="">
+                    <input type="email" placeholder="">
+                    <input type="text" placeholder="">
+                    <input type="text" placeholder="">
+                </div>
+            </form>
         </div>
 
     </section>
