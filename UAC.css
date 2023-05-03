@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #A8A8A8;
     margin: 0px;
     padding: 0px;
     font-family: "Aksara Bali Galang", sans-serif;
@@ -118,13 +118,12 @@ button{
 }
 button:hover{
     transition: 0.25s;
-    border-radius: none;
     color: #000000;
     background-color: aqua;
-    border-color: aqua;
+    border-bottom: #000000;
     box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
+    0 0 10px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 150px cyan;
 
 }
 button #img1{
@@ -172,97 +171,90 @@ button #img6{
 }
 #Main h1{
     position: absolute;
-    top: 79px;
-    left: 259px;
-    font-size: 30px ;
-    font-weight: 700;
+    left: 290px;
 
-}
-#Main button{
-    position: absolute;
-    height: 32px;
-    width: 85px;
-    top: 98px;
-    left: 1242px;
-    background-color: #023246;
-    box-shadow: 5px 1px 4px #000000;
-    border-radius: 10%;
-    color: white;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    font-size: medium;
-    font-family:Arial, Helvetica, sans-serif;
-    cursor:pointer;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
 
-}
-#Main button:hover{
-    transition: 0.25s;
-    color: #000000;
-    background-color: aqua;
-    border-radius: 90px;
-    border-color: aqua;
-    box-shadow: 0 0 5px blueviolet,
-    0 0 25px pink, 0 0 50px blueviolet,
-    0 0 100px pink, 0 0 200px blueviolet;
-}
-button #Add{
-    height: 20px;
-    width: 20px;
-    left: 2px;
-    top: 5px;
-}
-#Main table{
-    background-color:#023246;
-    color: white;
-    position: absolute;
-    left: 259px;
-    top: 144px;
-    height: 20pxs;
-    width: 1090px;
-    letter-spacing: 0.1em;
-    font-size: 14px;
-
-}
-#Popup{
-    position: absolute;
-    left: 460px;
-    top: 200px;
-    width: 676px;
-    height: 400px;
-    background-color: #FCFCFC;
-    box-shadow: 5px 1px 4px #000000;
-    border-radius: 10% 25%;
-    transform: translate(-50%,-50%) scale(0.1);
-    visibility: hidden;
-
-}
-.open-popup{
-    visibility: visible;
-    position: absolute;
-    left: 460px;
-    top: 200px;
-    transform: translate(-50%,-50%) scale(1);
-}
-#Popup form h1{
-    position: absolute;
-    left: 35px;
-    top: 2px;
-}
-#Popup form label{
     display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 35px;
-    top: 90px;
-    margin-top: 46px;
-    font-size: 25px;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #023246;
+
 }
-#Popup form input{
+#Main #container{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    left: 290px;
+    top: 180px;
+    cursor: pointer;
+
+    background: #FCFCFC;
+    box-shadow: 0px 6px 6px 3px rgba(0, 0, 0, 0.25);
+}
+#Main #container:hover{
+    background-color: grey;
+    transition:0.5s;
+}
+#container h3{
+    position: absolute;
+    font-size: 22px;
+    left: 20px;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 260px;
-    top: -55px;
-    margin-top: 38px;
-    font-size: 25px;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+#container p{
+    position: absolute;
+    font-size: 18px;
+    left: 20px;
+    top: 50px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+}
+#other{
+    position: absolute;
+    left: 290px;
+    top: 430px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #023246;
+}
+#Main #other_container{
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    left: 290px;
+    top: 490px;
+    cursor: pointer;
+
+    background: #FCFCFC;
+    box-shadow: 0px 6px 6px 3px rgba(0, 0, 0, 0.25);
+}
+#other_container h3{
+    position: absolute;
+    font-size: 22px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+#Main #other_container:hover{
+    background-color: grey;
+    transition:0.5s;
 }

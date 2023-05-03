@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventory Tracking</title>
-    <link rel="stylesheet" href="Inventory_track.css">
+    <title>User List</title>
+    <link rel="stylesheet" href="Userlist.css">
     <link rel="shortcut icon" href="/Image/shieldsearch.png" type="image/x-icon">
 </head>
 <body>
@@ -19,9 +19,7 @@
             </a>
             <a href="orderprocess.html">
                 <button><img id="img3" src="/Image/emptywalletchange.png">Order Processing</button></a>
-            <a href="R & A.html">
-                    <button><img id="img4" src="/Image/documenttext.png">Report & Analysis</button>
-            </a>
+            <button><img id="img4" src="/Image/documenttext.png">Report & Analysis</button>
             <a href="UAC.html">
                 <button><img id="img5" src="/Image/UAC.png">User Access Control</button>
             </a>
@@ -33,41 +31,28 @@
         <input type="text" placeholder="Search">
         <a href="profile.html"><img id="Profile" src="/Image/profile.png"></a>
         <a href="Home.html"><img id="Logout" src="/Image/Iconsax/Linear/Logout.png" ></a>
+        <a href="UAC.html">
+            <button id="Done">Done</button>
+        </a>
     </section>
     <section id="Main">
-        <h1>Inventory Tracking</h1>
-        <button onclick="openPopup()"><img id="Add" src="/Image/addsquare.png">Add</button>
-        <script>
-            let Popup = document.getElementById("Popup")
-
-            function openPopup(){
-                Popup.classList.add(".open-popup")
-            }
+        <h1>User List</h1>
+        <a href="UAC.html">
+            <button><img id="back" src="/Image/arrowleft.png">Back</button>
+        </a>
         </script>
         <table>
             <tr>
-                <th>Product Name</th>
-                <th>Quantity</th>
-                <th>Location</th>
-                <th>Reorder Point</th>
-                <th>Data Recieved</th>
-                <th>Cost</th>
-                <th>Expirarion Date</th>
-                <th>Brand</th>
+                <th>Name</th>
+                <th>Date Of birth</th>
+                <th>Email Id</th>
+                <th>Sex</th>
+                <th>Contact</th>
+                <th>Address</th>
                 <th>Add/Delete</th>
             </tr>
 
         </table>
-
-    </section>
-    <section id="Popup">
-        <form>
-            <h1>Suppliers Information</h1>
-            <label>Brand Name:</label>
-            <label>Email Id:</label>
-            <input type="text" placeholder="">
-            <input type="email" placeholder="">
-        </form>
 
     </section>
 </body>

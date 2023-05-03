@@ -173,22 +173,27 @@ button #img6{
 #Main h1{
     position: absolute;
     top: 79px;
-    left: 259px;
+    left: 759px;
     font-size: 30px ;
     font-weight: 700;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #023246;
 
 }
 #Main button{
     position: absolute;
     height: 32px;
-    width: 85px;
+    width: 100px;
     top: 98px;
     left: 1242px;
     background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
-    border-radius: 10%;
+    border-radius: 10px;
     color: white;
     font-weight: 700;
+    text-align:right;
     letter-spacing: 0.1em;
     font-size: medium;
     font-family:Arial, Helvetica, sans-serif;
@@ -199,17 +204,18 @@ button #img6{
     transition: 0.25s;
     color: #000000;
     background-color: aqua;
-    border-radius: 90px;
+    border-radius: 10px;
     border-color: aqua;
     box-shadow: 0 0 5px blueviolet,
     0 0 25px pink, 0 0 50px blueviolet,
     0 0 100px pink, 0 0 200px blueviolet;
 }
-button #Add{
-    height: 20px;
-    width: 20px;
-    left: 2px;
-    top: 5px;
+button #back{
+    height: 30px;
+    width: 30px;
+    left: 5px;
+    top: -1px;
+    
 }
 #Main table{
     background-color:#023246;
@@ -223,46 +229,30 @@ button #Add{
     font-size: 14px;
 
 }
-#Popup{
+#Done{
     position: absolute;
-    left: 460px;
-    top: 200px;
-    width: 676px;
-    height: 400px;
-    background-color: #FCFCFC;
+    height: 32px;
+    width: 75px;
+    top: 640px;
+    left: 1242px;
+    background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
-    border-radius: 10% 25%;
-    transform: translate(-50%,-50%) scale(0.1);
-    visibility: hidden;
-
+    border-radius:8px;
+    color: white;
+    font-weight: 700;
+    text-align:center;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
 }
-.open-popup{
-    visibility: visible;
-    position: absolute;
-    left: 460px;
-    top: 200px;
-    transform: translate(-50%,-50%) scale(1);
-}
-#Popup form h1{
-    position: absolute;
-    left: 35px;
-    top: 2px;
-}
-#Popup form label{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 35px;
-    top: 90px;
-    margin-top: 46px;
-    font-size: 25px;
-}
-#Popup form input{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 260px;
-    top: -55px;
-    margin-top: 38px;
-    font-size: 25px;
+#Done:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
 }

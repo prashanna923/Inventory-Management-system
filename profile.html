@@ -19,8 +19,10 @@
             <a href="orderprocess.html">
                 <button><img id="img3" src="/Image/emptywalletchange.png">Order Processing</button></a>
             <button><img id="img4" src="/Image/documenttext.png">Report & Analysis</button>
-            <button><img id="img5" src="/Image/UAC.png">User Access Control</button>
-            <button><img id="img6" src="/Image/trucktime.png">Auto Reordering</button>
+            <a href="UAC.html">
+                <button><img id="img5" src="/Image/UAC.png">User Access Control</button>
+            </a>
+           
         </nav>
     </section>
 
@@ -35,21 +37,39 @@
         <div id="container">
             <form>
                 <div id="Label">
-                    <label>Full Name</label>
-                    <label>Date of Birth</label>
-                    <label>Email ID</label>
-                    <label>Sex</label>
-                    <label>Address</label>
+                    <label id="name">Full Name</label>
+                    <label id="dob">Date of Birth</label>
+                    <label id="EI">Email ID</label>
+                    <label id="XX">Sex</label>
+                    <label id="No">Contact Number</label>
+                    <label id="Ad">Address</label>
                 </div>
                 <div id="input">
-                    <input type="text" placeholder="">
-                    <input type="text" placeholder="">
-                    <input type="email" placeholder="">
-                    <input type="text" placeholder="">
-                    <input type="text" placeholder="">
+                    <input id="namein" type="text" placeholder="">
+                    <input id="dobin" type="text" placeholder="">
+                    <input id="EIin" type="email" placeholder="">
+                    <input id="XXin" type="text" placeholder="">
+                    <input id="Noin" type="text" placeholder="">
+                    <input id="Adin" type="text" placeholder="">
                 </div>
             </form>
+            <a href="Changepass.html">
+                <button id="Change_pass">Change Password</button>
+            </a>
+            <img id="upload" src="/Image/photo.png" alt="photo">
+            <input id="file" type="file"/>
+
+            <script>
+            const image = document.querySelector("#upload");
+            const input = document.querySelector("#file");
+
+            input.addEventListener("change", () => {
+        image.src = URL.createObjectURL(input.files[0]);
+    });
+</script>
+            </script>
         </div>
+        
 
     </section>
 </body>

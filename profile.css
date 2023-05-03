@@ -71,13 +71,13 @@ h2{
     top: 29px ;
 }
 #Headline #Logout:hover{
-transition: 0.25s;
-background-color: darkred;
-border-radius: 23% 15%;
-border-color: aqua;
-box-shadow: 0 0 5px cyan,
-0 0 25px cyan, 0 0 50px cyan,
-0 0 100px cyan, 0 0 200px cyan;
+    transition: 0.25s;
+    background-color: darkred;
+    border-radius: 23% 15%;
+    border-color: aqua;
+    box-shadow: 0 0 5px red,
+    0 0 25px red, 0 0 50px red,
+    0 0 100px red, 0 0 200px red;
 }
 
 img {
@@ -196,24 +196,155 @@ button #img6{
     background: #FCFCFC;
 box-shadow: 0px 6px 6px 3px rgba(0, 0, 0, 0.25);
 }
-#Label{
-    position: relative;
-    display: flex;
-    width: 380px;
-    flex-direction: column;
-    left: 400px;
-    top: 120px;
-    font-size: 17px;
-    color: black;
-    font-weight: 600;
+#Label #name{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 80px;
+    left: 320px;
     letter-spacing: 0.1em;
 }
-#input{
+#Label #dob{
     position: absolute;
-    left: 600px;;
-    top: 120px;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 130px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #EI{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 180px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #XX{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 230px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #No{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 280px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #Ad{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 330px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#input #namein{
+    position: absolute;
+    top:80px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
     background: #FDFDFD;
-    border: 1px solid #000000;
     box-shadow: 0px 4px 4px #023246;
-    
+}
+#input #dobin{
+    position: absolute;
+    top:130px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #EIin{
+    position: absolute;
+    top:180px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #XXin{
+    position: absolute;
+    top:230px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #Noin{
+    position: absolute;
+    top:280px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #Adin{
+    position: absolute;
+    top:330px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#Change_pass{
+    position: absolute;
+    width: 190px;
+    height: 45px;
+    top: 10px;
+    left: 600px;
+    background: #023246;
+    border-radius: 20px;
+}
+#Change_pass:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-bottom: #000000;
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 150px cyan;
+
+}
+#upload{
+    top: 120px;
+    left: 70px;
+    border-radius: 30%;
+    object-fit: cover;
+    background: #dfdfdf;
+}
+#file{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+
 }

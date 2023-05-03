@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #EBEBEB;
     margin: 0px;
     padding: 0px;
     font-family: "Aksara Bali Galang", sans-serif;
@@ -118,13 +118,12 @@ button{
 }
 button:hover{
     transition: 0.25s;
-    border-radius: none;
     color: #000000;
     background-color: aqua;
-    border-color: aqua;
+    border-bottom: #000000;
     box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
+    0 0 10px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 150px cyan;
 
 }
 button #img1{
@@ -172,97 +171,177 @@ button #img6{
 }
 #Main h1{
     position: absolute;
-    top: 79px;
-    left: 259px;
-    font-size: 30px ;
-    font-weight: 700;
+    left: 290px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 10px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #023246;
 
 }
-#Main button{
+#Main #back{
     position: absolute;
     height: 32px;
-    width: 85px;
+    width: 100px;
     top: 98px;
     left: 1242px;
     background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
-    border-radius: 10%;
+    border-radius: 10px;
     color: white;
     font-weight: 700;
+    text-align:right;
     letter-spacing: 0.1em;
     font-size: medium;
     font-family:Arial, Helvetica, sans-serif;
     cursor:pointer;
-
 }
 #Main button:hover{
     transition: 0.25s;
     color: #000000;
     background-color: aqua;
-    border-radius: 90px;
+    border-radius: 10px;
     border-color: aqua;
     box-shadow: 0 0 5px blueviolet,
     0 0 25px pink, 0 0 50px blueviolet,
     0 0 100px pink, 0 0 200px blueviolet;
 }
-button #Add{
-    height: 20px;
-    width: 20px;
-    left: 2px;
-    top: 5px;
+button #back{
+    height: 30px;
+    width: 30px;
+    left: 5px;
+    top: -1px;
+    
 }
-#Main table{
-    background-color:#023246;
-    color: white;
+#Main #container{
     position: absolute;
-    left: 259px;
-    top: 144px;
-    height: 20pxs;
-    width: 1090px;
+    top: 200px;
+    left: 280px;
+    width: 1070px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.product .rec1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
+}
+.rec1 h2{
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
     letter-spacing: 0.1em;
-    font-size: 14px;
 
 }
-#Popup{
+.rec1 p{
     position: absolute;
-    left: 460px;
-    top: 200px;
-    width: 676px;
-    height: 400px;
-    background-color: #FCFCFC;
-    box-shadow: 5px 1px 4px #000000;
-    border-radius: 10% 25%;
-    transform: translate(-50%,-50%) scale(0.1);
-    visibility: hidden;
+    top: 40px;
+    left: 40px;
+    display: flex;
+
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
 
 }
-.open-popup{
-    visibility: visible;
+.rec1 #discard{
     position: absolute;
-    left: 460px;
-    top: 200px;
-    transform: translate(-50%,-50%) scale(1);
+    top: 8px;
+    left: 265px;
+    width: 20px;
+    height: 20px;
 }
-#Popup form h1{
+.product .rec2{
     position: absolute;
-    left: 35px;
-    top: 2px;
+    top: 20px;
+    left: 380px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
 }
-#Popup form label{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 35px;
-    top: 90px;
-    margin-top: 46px;
-    font-size: 25px;
+.rec2 h2{
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
-#Popup form input{
+.rec2 p{
+    position: absolute;
+    top: 40px;
+    left: 40px;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 260px;
-    top: -55px;
-    margin-top: 38px;
-    font-size: 25px;
+    
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec2 #discard{
+    position: absolute;
+    top: 8px;
+    left: 265px;
+    width: 20px;
+    height: 20px;
+}
+.product .rec3{
+    position: absolute;
+    top: 20px;
+    left: 720px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
+}
+.rec3 h2{
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec3 p{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec3 #discard{
+    position: absolute;
+    top: 8px;
+    left: 265px;
+    width: 20px;
+    height: 20px;
 }
