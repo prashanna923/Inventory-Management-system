@@ -261,14 +261,7 @@ button #img6{
     letter-spacing: 0.1em;
 
 }
-.rec1 #discard{
-    position: absolute;
-    top: 8px;
-    left: 265px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
+
 .product .rec2{
     position: absolute;
     top: 20px;
@@ -301,14 +294,7 @@ button #img6{
     letter-spacing: 0.1em;
 
 }
-.rec2 #discard{
-    position: absolute;
-    top: 8px;
-    left: 265px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
+
 .product .rec3{
     position: absolute;
     top: 20px;
@@ -341,38 +327,4 @@ button #img6{
     letter-spacing: 0.1em;
 
 }
-.rec3 #discard{
-    position: absolute;
-    top: 8px;
-    left: 265px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
-#Main #done{
-    position: absolute;
-    height: 32px;
-    width: 100px;
-    top: 660px;
-    left: 1190px;
-    background-color: #023246;
-    box-shadow: 5px 1px 4px #000000;
-    border-radius: 10px;
-    color: white;
-    font-weight: 700;
-    text-align:center;
-    letter-spacing: 0.1em;
-    font-size: medium;
-    font-family:Arial, Helvetica, sans-serif;
-    cursor:pointer;
-}
-#Main #done:hover{
-    transition: 0.25s;
-    color: #000000;
-    background-color: aqua;
-    border-radius: 10px;
-    border-color: aqua;
-    box-shadow: 0 0 5px blueviolet,
-    0 0 25px pink, 0 0 50px blueviolet,
-    0 0 100px pink, 0 0 200px blueviolet;
-}
+
