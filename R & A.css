@@ -195,79 +195,35 @@ button #img6{
 
     color: #000000;
 }
-.bar-container {
+.container{
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  width: 830px;
+  height: 200px;
+  background-color: #6092C0;
+}
+#Main #Sales{
+  position: absolute;
+    top: 62%;
+    left: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 10px;
+
+
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 80%;
-    height: 400px;
-    background-color: #eee;
-    margin: 0 auto;
-    padding-left: 50px;
-    box-sizing: border-box;
-  }
-  
-  .y-axis {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  
-  .tick {
-    font-size: 12px;
-  }
-  
-  .bars {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 90%;
-  }
-  
-  .bar {
-    width: 10%;
-    background-color: #2196f3;
-    border: 1px solid #1565c0;
-    box-sizing: border-box;
-    position: relative;
-  }
-  
-  .bar:nth-child(1) {
-    height: 30%;
-  }
-  
-  .bar:nth-child(2) {
-    height: 70%;
-  }
-  
-  .bar:nth-child(3) {
-    height: 50%;
-  }
-  
-  .bar:nth-child(4) {
-    height: 90%;
-  }
-  
-  .bar:nth-child(5) {
-    height: 20%;
-  }
-  
-  .bar:nth-child(6) {
-    height: 60%;
-  }
-  
-  .bar:nth-child(7) {
-    height: 80%;
-  }
-  
-  .bar:nth-child(8) {
-    height: 40%;
-  }
-  
-  .bar:nth-child(9) {
-    height: 10%;
-  }
-  
-  .bar
-  
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+.container2{
+  position: absolute;
+  top: 72%;
+  left: 34%;
+  width: 830px;
+  height: 190px;
+  background-color: #6092C0;
+}

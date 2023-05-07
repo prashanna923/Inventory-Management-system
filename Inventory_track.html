@@ -36,14 +36,52 @@
     </section>
     <section id="Main">
         <h1>Inventory Tracking</h1>
-        <button onclick="openPopup()"><img id="Add" src="/Image/addsquare.png">Add</button>
-        <script>
-            let Popup = document.getElementById("Popup")
-
-            function openPopup(){
-                Popup.classList.add(".open-popup")
+        <div id="Popup" class="popup">
+            <form>
+              <h1>Suppliers Information</h1>
+              <label id="PN">Product Name</label>
+              <input id="pn" type="text" placeholder="">
+              <br>
+              <label id="BN">Brand Name:</label>
+              <input id="bn" type="text" placeholder="">
+              <button id="Next">Next</button>
+            </form>
+          </div>
+          
+          <button onclick="openPopup()"><img id="Add" src="/Image/addsquare.png">Add</button>
+          <script>
+            let Popup = document.getElementById("Popup");
+            function openPopup() {
+              Popup.classList.add("show");
             }
-        </script>
+            function closePopup() {
+              Popup.classList.remove("show");
+            }
+            function openPopup2(){
+                Popup2.classList.add("show")
+            }
+            function closePopup2() {
+              Popup.classList.remove("show");
+            }
+          </script>
+        <div id="Popup2" class = "popup2">
+            <form>
+                <label id="Location">Location:</label>
+                <input id="lo" type="text" placeholder="Select Location">
+                <label id="cost">Cost:</label>
+                <input id="co" type="text" placeholder="">
+                <label id="Quantity">Quantity:</label>
+                <input id="qu" type="number" placeholder="">
+                <label id="Rp">Reorder Point:</label>
+                <input id="rp" type="text" placeholder="">
+                <label id="ED">Expiration Date:</label>
+                <input id="ed" type="datetime-local" placeholder="">
+                <label id="DR">Date Recieved:</label>
+                <input id="dr" type="datetime-local" placeholder="">
+
+                <button id="Done">Done</button>
+              </form>
+        </div>
         <table>
             <tr>
                 <th>Product Name</th>
@@ -60,15 +98,6 @@
         </table>
 
     </section>
-    <section id="Popup">
-        <form>
-            <h1>Suppliers Information</h1>
-            <label>Brand Name:</label>
-            <label>Email Id:</label>
-            <input type="text" placeholder="">
-            <input type="email" placeholder="">
-        </form>
-
-    </section>
+    
 </body>
 </html>
